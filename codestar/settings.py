@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-6)*$fde+$e+6y-l06y(i%p8jf24z5sv5(tj3)*$*h#yyeyn@-@
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-axtegenarnol-djangoblog-6a8rjupbqcm.ws.codeinstitute-ide.net', '.herokuapp.com']
 
@@ -91,7 +91,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
+    "https://8000-axtegenarnol-djangoblog-6a8rjupbqcm.ws.codeinstitute-ide.net",
     "https://*.herokuapp.com"
 ]
 
